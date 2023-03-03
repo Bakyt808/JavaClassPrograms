@@ -1,4 +1,4 @@
-package com.java.MyPtacyicesLooping;
+package com.java.MyPracticesLooping;
 
 // Write a program to print number from 1 to 50 which is divisible by 5 or 3
 // Output  - 3 5 6 9 10 12 15

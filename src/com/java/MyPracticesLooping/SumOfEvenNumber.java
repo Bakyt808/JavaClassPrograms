@@ -1,4 +1,4 @@
-package com.java.MyPtacyicesLooping;
+package com.java.MyPracticesLooping;
 
 // Write a program to print sum of even number from 1 to 10
 // Output 30

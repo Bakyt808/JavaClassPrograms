@@ -1,4 +1,4 @@
-package com.java.MyPtacyicesLooping;
+package com.java.MyPracticesLooping;
 
 // Write a program to print 1 10 2 9 3 8 4 7 5 6
 

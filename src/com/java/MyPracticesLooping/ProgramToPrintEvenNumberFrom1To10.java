@@ -1,4 +1,4 @@
-package com.java.MyPtacyicesLooping;
+package com.java.MyPracticesLooping;
 
 // Write a program to print even number from 1 to 10
 // Output should be 2 4 6 8 10
