@@ -1,11 +1,11 @@
 package com.java.MyPracticesLooping;
 
-// Write a program to print 1 to 10
+// Write a program to print 10 to 1
 
-public class ProgramToPrint1to10 {
+public class ToPrint10To1 {
     public static void main(String[] args) {
 
-        for (int i = 1; i != 11; i++) {
+        for (int i = 10; i > 0; i--) {
             System.out.println(i);
         }
     }

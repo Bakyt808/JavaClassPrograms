@@ -1,12 +1,16 @@
 package com.java.MyPracticesLooping;
 
-// Write a program to print table of 5
+// Write a program to print sum of 1-10
 
 public class ToPrintSumOf1To10 {
     public static void main(String[] args) {
-        int n = 5;
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(n * i);
+
+        int num = 10;
+        int temporary = 0;
+
+        for (int i = 1; i<=num; i++)  {
+            temporary = temporary + i;
         }
+        System.out.println(temporary);
     }
 }
