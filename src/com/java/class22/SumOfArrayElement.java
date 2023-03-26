@@ -17,8 +17,8 @@ public class SumOfArrayElement {
 
         int s = 0;
 
-        for (int i = 0; i < listOfData.length; i++)     {
-            s = s +listOfData[i];
+        for (int i = 0; i < listOfData.length; i++) {
+            s = s + listOfData[i];
         }
 
         System.out.println(s);
