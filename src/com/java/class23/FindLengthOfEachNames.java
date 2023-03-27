@@ -2,7 +2,7 @@ package com.java.class23;
 
 import java.util.Scanner;
 
-public class FindNames {
+public class FindLengthOfEachNames {
 
     public static void main(String[] args) {
 

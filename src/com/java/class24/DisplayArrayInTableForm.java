@@ -23,7 +23,7 @@ public class DisplayArrayInTableForm {
                 sum = sum + data[i][j];
             }
 
-            System.out.println("Sum of row " + (i + 1) + " = ");
+            System.out.println("Sum of row " + (i + 1) + " = " + sum);
         }
     }
 }
