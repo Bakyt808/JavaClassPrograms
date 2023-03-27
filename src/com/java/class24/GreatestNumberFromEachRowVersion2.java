@@ -10,19 +10,21 @@ public class GreatestNumberFromEachRowVersion2 {
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < data.length; i++) {
-            System.out.println("Enter data in row " + (i + 1));
-            data[i][0] = input.nextInt();
-            int max = data[i][0];
 
-            for (int j = 1; j < data[i].length; j++) {
+            System.out.println("Enter data in row " + (i + 1));
+            for (int j = 0; j < data[i].length; j++) {
                 data[i][j] = input.nextInt();
+            }
+        }
+
+        for (int i = 0; i < data.length; i++) {
+            int max = data[i][0];
+            for (int j = 0; j < data[i].length; j++) {
                 if (data[i][j] > max) {
                     max = data[i][j];
                 }
             }
-
             System.out.println("Greatest in row " + (i + 1) + " is " + max);
-
         }
 
 

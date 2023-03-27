@@ -12,7 +12,8 @@ public class GreatestNumberFromEachRow {
         for (int i = 0; i < data.length; i++) {
 
             System.out.println("Enter data in row " + (i + 1));
-            int max = 0;
+            // int max = 0; Usually we do like this but this one doesn't work with negative numbers
+            int max = Integer.MIN_VALUE; // Integer.MIN_VALUE; - will give us the lowest possible value
 
             for (int j = 0; j < data[i].length; j++) {
                 data[i][j] = input.nextInt();
