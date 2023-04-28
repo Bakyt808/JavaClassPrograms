@@ -6,7 +6,7 @@ package com.java.MyPracticesLooping;
 public class ToPrintFactorialOfGivenNumber {
     public static void main(String[] args) {
 
-        int fact = 5;
+        int fact = 8;
         int sum = 1;
 
         for (int i = 1; i <= fact; i++) {
